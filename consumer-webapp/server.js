@@ -39,11 +39,14 @@ const run = async () => {
 
   await consumer.run({
     eachMessage: async ({ topic, partition, message }) => {
-      console.log({
+      console.log(message);
+      data = {
+        deviceId: message.key.toString(),
         value: message.value.toString(),
-      });
+      }
+      console.log(data);      
       // Broadcast message to all WebSocket clients
-      broadcastMessage(message.value.toString());
+      broadcastMessage(JSON.stringify(data));
     },
   });
 };
