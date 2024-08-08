@@ -1,5 +1,5 @@
 # kakfa-poc
-
+![kafka](https://github.com/user-attachments/assets/5eba26eb-bbfe-4fa2-ac7f-5665513e625f)
 
 # Kafka
   1. `cd kafka`
@@ -10,6 +10,7 @@
 
 To produce messages run 
 
+
 ``` python producer.py ```
 
 
@@ -18,6 +19,8 @@ To produce messages run
 Step 1: ``` cd consumer-webapp && node server.js ```
 
 Step 2: ``` cd kafka-websocker-consumer && npm start ```
+
+
 
 
 
