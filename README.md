@@ -6,19 +6,19 @@
   2. `docker-compose down`
   3. `docker-compose up`
 
+
+# consumer
+
+Step 1: ``` cd consumer-webapp && node server.js ```
+
+Step 2: ``` cd react-app && npm start ```
+
 # producer
 
 To produce messages run 
 
 
 ``` python producer.py ```
-
-
-# consumer
-
-Step 1: ``` cd consumer-webapp && node server.js ```
-
-Step 2: ``` cd kafka-websocker-consumer && npm start ```
 
 
 
