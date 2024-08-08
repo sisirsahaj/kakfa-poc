@@ -2,10 +2,9 @@
 
 
 # Kafka
-  ``` > docker-compose down ```
-  ``` > docker-compose build ```
-
-
+  1. `cd kafka`
+  2. `docker-compose down`
+  3. `docker-compose build`
 
 # producer
 
