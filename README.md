@@ -17,7 +17,7 @@ Step 2: ``` cd react-app && npm start ```
 
 To produce messages run 
 
-
+``` pip install -r requirements.txt ```
 ``` python producer.py ```
 
 
